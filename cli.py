@@ -1,7 +1,8 @@
 # from functions import get_todos, write_todos
 import functions
 import time
-print(time.strftime("%b-%d-%Y  %H:%M:%S"))
+date = time.strftime("%b-%d-%Y  %H:%M:%S")
+print(date)
 
 while True:
     user_action = input("Enter add, show, edit, , complete, exit,: ")

@@ -1,5 +1,4 @@
 sleep well
-eat food
 work hard
 meet a friend
 learn python
