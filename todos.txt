@@ -1,7 +1,8 @@
-sleep well
 work hard
-meet a friend
+learn statistics
+learn math
 learn python
 wash the clothes
 buy a smartphone
-buy new clothes
+buy a new car
+add new todo
