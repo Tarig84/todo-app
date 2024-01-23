@@ -1,6 +1,11 @@
 import functions
 import PySimpleGUI as sg
 import time
+import os
+
+if not os.path.exists('todos.txt'):
+    with open('todos.txt', 'w') as file:
+        pass
 
 sg.theme("BlueMono")
 
@@ -60,7 +65,7 @@ while True:
                 sg.popup('Please select item first', font=("Helvetica", 20), text_color='red')
                 continue
         case "Exit":
-            exit()
+            break
         case sg.WINDOW_CLOSED:
             break
 window.close()
